@@ -20,9 +20,12 @@ assumes:
   
 apps:
   fd: 
-    command: bin/fd
+    command: bin/fd      
     command-chain: 
-      - bin/homeishome-launch        
+      - bin/homeishome-launch      
+    plugs:
+      - home
+      
 
 parts:
   fd:
