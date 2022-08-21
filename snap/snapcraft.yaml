@@ -25,7 +25,7 @@ apps:
       - bin/homeishome-launch      
     plugs:
       - home
-      
+      - removable-media
 
 parts:
   fd:
